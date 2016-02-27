@@ -1,0 +1,157 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+	padding-top: 60px;
+}
+body {
+    padding-top: 70px; 
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+}
+nav ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    display: inline-table;
+}
+nav ul li{
+    float: left;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+nav ul li:hover{
+    background: rgba(0,0,0,.15);
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul li{
+    float: left;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+nav ul li a{
+    display: block; 
+    padding: 20px 20px;
+    color: #222; 
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul ul{
+    display: none;
+    background: #fff;
+    position: absolute; 
+    top: 100%;
+    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+}
+nav ul ul li{
+    float: none; position: relative;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+    background-color: #16A085;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotronn {
+margin-top: 100px;
+background: #FF800D;
+color: white;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+.jumbotron-sm { padding-top: 12px;
+padding-bottom: 12px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+.btn {
+    background-color: #1ABC9C;
+    border: #1ABC9C;
+}
+
+.btn:hover {
+    background-color: #2980B9;
+    border: #2980B9;
+}
+nav ul ul li a {
+    padding: 15px 30px; 
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+nav ul ul ul {
+    position: absolute; 
+    left: 100%; 
+    top:0;
+}    
+nav img {
+    width: 62px;
+    padding-left: 7px;
+}
+.jumbotron {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/diamonds.jpg');
+}
+.jumbotron h1{
+    color: #fff;
+    font-size: 48px;
+}
+.jumbotron p{
+    color: #fff;
+}
+body { padding-top: 20px; }
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+    background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
